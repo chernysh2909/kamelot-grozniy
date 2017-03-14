@@ -384,6 +384,53 @@ header{
         }
       }
     }
+
+    &__gallery{
+     .links_odde{
+       margin-bottom: 25px;
+       a{
+         color: #636363;
+       }
+     }
+    }
+
+    &__gall-wrp{
+      margin-bottom: 10px;
+      p{
+        color: #684c2e;
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+    .beat-uzor{
+      background: url("../images/beat-uzor.png");
+      height: 35px;
+      width: 380px;
+    }
+    &__object{
+      margin-top: 60px;
+      height: 385px;
+    }
+    &__oject-inner{
+      position: relative;
+      margin-bottom: 35px;
+      margin-top: 35px;
+      img{
+       height: 340px;
+        width: 440px;
+      }
+      &:before{
+        position: absolute;
+        content: "";
+        background: url("../images/border-object.png");
+        height: 397px;
+        width: 471px;
+        top:-30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
   }
 }
 
@@ -513,5 +560,6 @@ header{
     }
 
   }
+
 }
 
